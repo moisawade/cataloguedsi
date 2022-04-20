@@ -1,0 +1,6 @@
+type: target-group
+name: SMC
+conditions:
+  - operator: lt
+    property: SUR
+    operand: 400

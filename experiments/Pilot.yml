@@ -1,0 +1,13 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+enabled: false
+flag: Pilot
+availableValues:
+  - External
+  - Internal
+conditions:
+  - property:
+      name: SUR
+      operator: lt
+      operand: 400
+    value: Internal
